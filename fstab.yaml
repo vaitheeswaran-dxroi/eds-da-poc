@@ -1,4 +1,4 @@
 mountpoints:
   /:
-    url: https://content.da.live/vaitheeswaran-dxroi/eds-da-poc/
+    url: https://content.da.live/eds-da-poc/
     type: markup
