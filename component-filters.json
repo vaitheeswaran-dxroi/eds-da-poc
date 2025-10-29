@@ -61,6 +61,12 @@
     ]
   },
   {
+    "id": "imagetext",
+    "components": [
+      "imagetext"
+    ]
+  },
+  {
     "id": "tabs",
     "components": [
       "tabs-item"
