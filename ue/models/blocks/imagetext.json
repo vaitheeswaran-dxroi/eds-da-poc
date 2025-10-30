@@ -1,7 +1,7 @@
 {
   "definitions": [
     {
-      "title": "Imagetext",
+      "title": "Image Text",
       "id": "imagetext",
       "plugins": {
         "da": {
