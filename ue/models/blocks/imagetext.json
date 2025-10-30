@@ -10,16 +10,6 @@
       },
       "model": "imagetext",
       "filter": "imagetext"
-    },
-    {
-      "title": "Image Text",
-      "id": "imagetext",
-      "plugins": {
-        "da": {
-          "unsafeHTML": "<div><div><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/jpeg\" srcset=\"\"><img loading=\"lazy\"></picture></div><div></div></div>"
-        }
-      },
-      "model": "imagetext"
     }
   ],
   "models": [
@@ -50,12 +40,5 @@
       ]
     }
   ],
-  "filters": [
-    {
-      "id": "imagetext",
-      "components": [
-        "imagetext"
-      ]
-    }
-  ]
+  "filters": []
 }
