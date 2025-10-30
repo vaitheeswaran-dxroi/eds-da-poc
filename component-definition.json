@@ -208,6 +208,17 @@
               "columns": 1
             }
           }
+        },
+        {
+          "title": "Vplayer",
+          "id": "vplayer",
+          "plugins": {
+            "da": {
+              "name": "vplayer",
+              "rows": 1,
+              "columns": 1
+            }
+          }
         }
       ]
     }
