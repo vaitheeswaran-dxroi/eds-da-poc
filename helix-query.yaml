@@ -21,10 +21,6 @@ indices:
         select: none
         value: |
           parseTimestamp(headers['last-modified'], 'ddd, DD MMM YYYY hh:mm:ss GMT')
-      featured:
-        select: head > meta[name="featured"]
-        value: |
-          attribute(el, "content")
       author:
         select: head > meta[name="author"]
         value: |
@@ -35,8 +31,4 @@ indices:
           match(attribute(el, "content"), "https:\/\/[^/]+(/.*)")
       content:
         select: main > div
-        values: textContent(el)
-      tags:
-        select: head > meta[property="article:tag"]
-        values: |
-          attribute(el, 'content')
+        values: characters(textContent(el), 0, 200)
