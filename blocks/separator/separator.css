@@ -1,6 +1,6 @@
 .separator .separator-horizontal-rule {
   border: solid var(--color-border-separator);
-  border-width: 2px 0 0 0;
+  border-width: 2px 0 0;
   margin: var(--space-s-m) 0;
   position: relative;
 }
