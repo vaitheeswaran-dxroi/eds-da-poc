@@ -35,7 +35,7 @@ indices:
           match(attribute(el, "content"), "https:\/\/[^/]+(/.*)")
       content:
         select: main > div
-        values: characters(textContent(el), 0, 200)
+        values: textContent(el)
       tags:
         select: head > meta[property="article:tag"]
         values: |
