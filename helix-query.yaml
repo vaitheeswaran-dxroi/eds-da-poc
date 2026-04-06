@@ -8,7 +8,6 @@ indices:
       - /nav/**
       - /footer/**
       - /metadata/**
-      - /modals/**
       - /fragments/**
       - /spreadsheets/**
       - /docs/library/blocks/modals/**
