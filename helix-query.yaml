@@ -11,6 +11,7 @@ indices:
       - /modals/**
       - /fragments/**
       - /spreadsheets/**
+      - /docs/library/blocks/modals/**
     target: /query-index.json
     properties:
       title:
