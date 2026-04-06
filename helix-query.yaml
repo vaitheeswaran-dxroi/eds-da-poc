@@ -3,6 +3,14 @@ indices:
   default:
     include:
       - /**
+    exclude:
+      - /configuration/**
+      - /nav/**
+      - /footer/**
+      - /metadata/**
+      - /modals/**
+      - /fragments/**
+      - /spreadsheets/**
     target: /query-index.json
     properties:
       title:
