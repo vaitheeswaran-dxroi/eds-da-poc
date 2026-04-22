@@ -27,8 +27,7 @@ indices:
           dateValue(attribute(el, 'content'), 'MM-DD-YYYY')
       lastModified:
         select: none
-        value: |
-          parseTimestamp(headers['last-modified'], 'ddd, DD MMM YYYY hh:mm:ss GMT')
+        value: parseTimestamp(headers["last-modified"], "ddd, DD MMM YYYY hh:mm:ss GMT")
       author:
         select: head > meta[name="author"]
         value: |
