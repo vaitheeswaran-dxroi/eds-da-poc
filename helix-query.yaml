@@ -10,7 +10,7 @@ indices:
       - /metadata/**
       - /fragments/**
       - /spreadsheets/**
-      - /docs/**
+      - /modals/**
     target: /query-index.json
     properties:
       title:
