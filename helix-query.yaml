@@ -11,6 +11,7 @@ indices:
       - /fragments/**
       - /spreadsheets/**
       - /modals/**
+      - /partner/**
       - /.da/**
       - /docs/library/**
     target: /query-index.json
