@@ -12,7 +12,7 @@ indices:
       - /spreadsheets/**
       - /modals/**
       - /.da/**
-      - /docs/library/blocks/**
+      - /docs/library/**
     target: /query-index.json
     properties:
       title:
